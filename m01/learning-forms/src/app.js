@@ -15,7 +15,14 @@ class App extends Component {
   render () {
     return (
       <div className='container'>
-        <form>
+        <form onSubmit={(e) => {
+          e.preventDefault()
+          console.log('e => ', e)
+        }}
+        
+        onChange={(e) => {
+          console.log('e => ', e)
+        }}>
           <input type='text' value={this.state.value} onChange={(e) => {
             this.setState({
               value: e.target.value
@@ -42,7 +49,18 @@ class App extends Component {
           }}/>
 
           <label>Select</label>
-          <select multiple value={this.state.valueSelect} onChange={(e) => {
+          <select value={this.state.valueSelect} onChange={(e) => {
+            this.setState({
+              valueSelect: e.target.value
+            })
+          }}>
+            <option value='1'>Opcao 1</option>
+            <option value='2'>Opcao 2</option>
+            <option value='3'>Opcao 3</option>
+          </select>
+          
+          <label>Select</label>
+          <select multiple value={['1', '2']} onChange={(e) => {
             this.setState({
               valueSelect: e.target.value
             })
