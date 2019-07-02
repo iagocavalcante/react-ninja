@@ -18,7 +18,7 @@
     "react-hot-loader": "4.11.1",
     "standard": "12.0.1",
     "standard-loader": "6.0.1",
-    "webpack": "4.35.0",
+    "webpack": "4.35.2",
     "webpack-cli": "3.3.2",
     "webpack-dev-server": "3.7.2",
     "webpack-validator": "3.0.1"
