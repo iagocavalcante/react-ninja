@@ -24,8 +24,8 @@
     "webpack-validator": "3.0.1"
   },
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "standard": {
     "globals": [
