@@ -19,7 +19,7 @@
     "standard": "14.3.4",
     "standard-loader": "7.0.0",
     "webpack": "4.41.5",
-    "webpack-cli": "3.3.12",
+    "webpack-cli": "7.2.3",
     "webpack-dev-server": "5.2.6",
     "webpack-validator": "3.0.1"
   },
